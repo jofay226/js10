@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 1rem;
+}
+
+.box {
+  margin-top: 1rem;
+}
+
+.space {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.light {
+  padding: 1rem;
+  border-radius: 1rem;
+}

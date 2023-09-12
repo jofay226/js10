@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html file</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <input type="number" id="firstVal" value="0">
+            +
+            <input type="number" id="secondVal" value="0">
+            = <span id="result">0</span>
+            <button id="addBtn">Calculate</button>
+        </div>
+
+        <div class="box">
+            <input type="number" id="firstVal2" value="0">
+            -
+            <input type="number" id="secondVal2" value="0">
+            = <span id="result2">0</span>
+            <button id="subBtn">Calculate</button>
+            <hr class="space">
+        </div>
+
+        <div class="box">
+            <input type="text" id="text" value="insert some text">
+            <button id="btnCreateH">Create h1 tag with text you wrote</button>
+            <hr class="space">
+        </div>
+
+        <div class="box">
+            <button id="on">Turn On</button>
+            <img id="bulb" src="./images/pic_bulboff.gif" alt="bulb">
+            <button id="off">Turn Off</button>
+            <hr class="space">
+        </div>
+        <div class="box">
+            <button name="modeBtn" type="button" onclick="modeHandler()"  id="one"  class="light"><i id="moonIcon" class="fa-solid fa-moon fa-2xl" ></i></button>
+            
+            <hr class="space">
+        </div>
+
+    </div>
+
+
+
+
+
+    <script type ="module" src="./js/main.js" ></script> 
+    <script type="text/javascript" src="./js//external.js"></script>
+    <script src="https://kit.fontawesome.com/b7b61a240c.js" crossorigin="anonymous"></script>
+</body>
+</html>
